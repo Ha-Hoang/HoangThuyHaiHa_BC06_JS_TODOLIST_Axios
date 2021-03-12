@@ -24,10 +24,10 @@ function taoList(arr) {
                 <li>
                     <span>${arr[i].textTask}</span>
                     <div class="buttons">
-                        <button class="btnclick remove" onclick="deleteTask(${arr[i].id})">
+                        <button class="remove" onclick="deleteTask(${arr[i].id})">
                             <i class="fa fa-trash-alt"></i>
                         </button>
-                        <button class="btnclick complete" onclick="changeStatus(${arr[i].id})">
+                        <button class="complete" onclick="changeStatus(${arr[i].id})">
                             <i class="far fa-check-circle"></i>
                         </button>
                     </div>
